@@ -8,7 +8,7 @@ func TestHelloWorld(t *testing.T) {
 		t.Errorf("Testing fail")
 	}
 
-	hello = HelloWorld("appleboy ")
+	hello = HelloWorld("appleboy")
 	if hello != "Hi, appleboy" {
 		t.Errorf("Testing fail")
 	}
